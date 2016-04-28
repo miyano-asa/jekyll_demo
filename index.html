@@ -4,6 +4,22 @@ title: My blog
 ---
 
 <h2>{{page.title}}</h2>
+
+<div id="nav">
+	<div class="nav_button">
+		<a href="#"><p>Math</p></a>
+	</div>
+	<div class="nav_button">
+		<a href="#"><p>Cartoon</p></a>
+	</div>
+	<div class="nav_button">
+		<a href="#"><p>Life</p></a>
+	</div>
+	<div class="nav_button">
+		<a href="#"><p>Others</p></a>
+	</div>
+</div>
+
 <p>Newest Update</p>
 <ul>
 	{% for post in site.posts %}
