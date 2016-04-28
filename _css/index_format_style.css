@@ -1,3 +1,7 @@
 body{
   background-image: url("http://rnls.ethz.ch/summerschool2014/imgs/zurich.jpg");
 }
+
+div{
+  background-color: #FF0000;
+}
